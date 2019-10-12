@@ -16,7 +16,7 @@ def say_hello(**payload):
         web_client.chat_postMessage(channel=channel_id,
                                    text=reply.get('data'))
 
-
+# Slack token for bot
 slack_token = 'xoxb-781825934963-780528215330-KFT40bsiyMYoHcALtkRTfUVb'
 
 client = RTMClient(token = slack_token)
